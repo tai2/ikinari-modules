@@ -1,0 +1,19 @@
+{
+  "name": "instaroll",
+  "version": "1.0.0",
+  "main": "bin/instaroll",
+  "bin": {
+    "instaroll": "bin/instaroll"
+  },
+  "scripts": {
+    "format": "prettier --no-semi --trailing-comma es5 --write bin/instaroll"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "rollup": "^2.33.3",
+    "rollup-plugin-url-resolve": "^0.1.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.0"
+  }
+}
