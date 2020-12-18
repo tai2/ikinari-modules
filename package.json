@@ -10,10 +10,10 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@rollup/plugin-node-resolve": "^10.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "@tai2/rollup-plugin-url-resolve": "^0.1.1",
     "rollup": "^2.33.3",
-    "rollup-plugin-cjs-es": "^1.0.1",
-    "rollup-plugin-url-resolve": "^0.1.1"
+    "rollup-plugin-cjs-es": "^1.0.1"
   },
   "devDependencies": {
     "prettier": "^2.2.0"

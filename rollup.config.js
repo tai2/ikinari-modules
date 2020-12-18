@@ -1,4 +1,4 @@
-import urlResolve from "rollup-plugin-url-resolve"
+import urlResolve from "@tai2/rollup-plugin-url-resolve"
 import resolve from "@rollup/plugin-node-resolve"
 import cjs from "rollup-plugin-cjs-es"
 
