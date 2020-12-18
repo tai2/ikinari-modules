@@ -22,6 +22,8 @@ echo "import stringLength from 'https://unpkg.com/string-length'; \
 console.log(stringLength('🐴'))" \
 | ikinari -i - \
 | node
+
+- → stdout...
 1
 ```
 
