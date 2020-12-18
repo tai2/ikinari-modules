@@ -5,10 +5,10 @@ const { spawn } = require("child_process")
 const rollupPath = require.resolve(".bin/rollup")
 const configPath = path.resolve(__dirname, "../rollup.config.js")
 const argv = process.argv.slice(2)
-const cmd = spawn(rollupPath, [...argv, "--config", configPath])
+const cmd = spawn(rollupPath, [...argv, "--config", configPath], {
+  stdio: "inherit",
+})
 
-cmd.stdout.pipe(process.stdout, { end: false })
-cmd.stderr.pipe(process.stderr, { end: false })
 cmd.on("exit", function (code) {
   process.exit(code)
 })
