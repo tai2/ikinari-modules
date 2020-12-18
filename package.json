@@ -6,7 +6,8 @@
     "ikinari": "bin/ikinari"
   },
   "scripts": {
-    "format": "prettier --no-semi --trailing-comma es5 --write . bin/ikinari"
+    "format": "prettier --no-semi --trailing-comma es5 --write . bin/ikinari",
+    "test": "cd tests && yarn test"
   },
   "license": "MIT",
   "dependencies": {
