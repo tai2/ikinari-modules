@@ -1,6 +1,6 @@
 {
   "name": "ikinari-modules",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "bin/ikinari",
   "bin": {
     "ikinari": "bin/ikinari"
