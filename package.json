@@ -6,11 +6,13 @@
     "instaroll": "bin/instaroll"
   },
   "scripts": {
-    "format": "prettier --no-semi --trailing-comma es5 --write bin/instaroll"
+    "format": "prettier --no-semi --trailing-comma es5 --write . bin/instaroll"
   },
   "license": "MIT",
   "dependencies": {
+    "@rollup/plugin-node-resolve": "^10.0.0",
     "rollup": "^2.33.3",
+    "rollup-plugin-cjs-es": "^1.0.1",
     "rollup-plugin-url-resolve": "^0.1.1"
   },
   "devDependencies": {
