@@ -1,12 +1,12 @@
 {
-  "name": "instaroll",
+  "name": "ikinari-modules",
   "version": "1.0.0",
-  "main": "bin/instaroll",
+  "main": "bin/ikinari",
   "bin": {
-    "instaroll": "bin/instaroll"
+    "ikinari": "bin/ikinari"
   },
   "scripts": {
-    "format": "prettier --no-semi --trailing-comma es5 --write . bin/instaroll"
+    "format": "prettier --no-semi --trailing-comma es5 --write . bin/ikinari"
   },
   "license": "MIT",
   "dependencies": {
