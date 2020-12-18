@@ -27,5 +27,5 @@ console.log(stringLength('🐴'))" \
 1
 ```
 
-ikinari-modules is a really thin wrapper of rollup's CLI. you can use [all options](https://rollupjs.org/guide/en/#command-line-flags)
+ikinari-modules is a really thin wrapper of rollup's CLI. You can use [all options](https://rollupjs.org/guide/en/#command-line-flags)
 of it except for `--config`.
