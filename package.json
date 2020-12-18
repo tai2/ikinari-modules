@@ -1,6 +1,26 @@
 {
   "name": "ikinari-modules",
   "version": "0.0.2",
+  "author": {
+    "name": "Taiju Muto",
+    "email": "hello@tai2.net",
+    "url": "https://tai2.net"
+  },
+  "keywords": [
+    "cli",
+    "modules",
+    "bundler",
+    "bundling"
+  ],
+  "homepage": "https://github.com/tai2/ikinari-modules",
+  "repository": {
+    "type": "git",
+    "url": "github:tai2/ikinari-modules"
+  },
+  "bugs": {
+    "url": "https://github.com/tai2/ikinari-modules/issues",
+    "email": "hello@tai2.net"
+  },
   "main": "bin/ikinari",
   "bin": {
     "ikinari": "bin/ikinari"
