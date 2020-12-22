@@ -1,6 +1,6 @@
 const { spawn, execFileSync } = require("child_process")
 
-const binPath = "../bin/ikinari"
+const binPath = "./bin/ikinari"
 
 function compile(sourceCode) {
   return execFileSync(binPath, ["-i", "-"], {
